@@ -1,0 +1,810 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li{
+    list-style: none;
+}
+
+h1{
+    font-family: 'Hahmlet', serif;
+    font-size: 48pt;
+}
+
+p{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 12pt;
+}
+
+#explain1{
+    position: absolute;
+    width: 600px;
+    text-align: left;
+    z-index: 3;
+    margin-left: 550px;
+    margin-top: -650px;
+    line-height: 180%
+}
+
+#explain2{
+    position: absolute;
+    width: 600px;
+    text-align: right;
+    z-index: 3;
+    margin-left: -550px;
+    margin-top: 770px;
+    line-height: 180%
+}
+
+#explain3{
+    position: absolute;
+    width: 600px;
+    text-align: left;
+    z-index: 3;
+    margin-left: 380px;
+    margin-top: -790px;
+    line-height: 180%
+}
+
+#explain4{
+    position: absolute;
+    width: 600px;
+    text-align: right;
+    z-index: 3;
+    margin-left: -300px;
+    margin-top: 800px;
+    line-height: 180%
+}
+
+#explain5{
+    position: absolute;
+    width: 600px;
+    text-align: left;
+    z-index: 3;
+    margin-left: 530px;
+    margin-top: -480px;
+    line-height: 180%
+}
+
+#explain6{
+    position: absolute;
+    width: 600px;
+    text-align: right;
+    z-index: 3;
+    margin-left: -300px;
+    margin-top: 680px;
+    line-height: 180%
+}
+
+#explain7{
+    position: absolute;
+    width: 600px;
+    text-align: left;
+    z-index: 3;
+    margin-left: 480px;
+    margin-top: -730px;
+    line-height: 180%
+}
+
+#explain8{
+    position: absolute;
+    width: 600px;
+    text-align: right;
+    z-index: 3;
+    margin-left: -380px;
+    margin-top: 780px;
+    line-height: 180%
+}
+
+#explain9{
+    position: absolute;
+    width: 600px;
+    text-align: left;
+    z-index: 3;
+    margin-left: 450px;
+    margin-top: -600px;
+    line-height: 180%
+}
+
+#explain10{
+    position: absolute;
+    width: 500px;
+    text-align: right;
+    z-index: 3;
+    margin-left: -100px;
+    margin-top: 650px;
+    line-height: 180%
+}
+
+#explain11{
+    position: absolute;
+    width: 600px;
+    text-align: left;
+    z-index: 3;
+    margin-left: 470px;
+    margin-top: -950px;
+    line-height: 180%
+}
+
+#explain12{
+    position: absolute;
+    width: 500px;
+    text-align: right;
+    z-index: 3;
+    margin-left: 0px;
+    margin-top: 600px;
+    line-height: 180%
+}
+
+#container{
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    background-color: #0a9807;
+}
+
+#maincontainer{
+    width: 1080px;
+}
+
+#firstcontents{
+    width: 1080px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+#line1{
+    margin-top: 250px;
+    background-image: url("img/line.png");
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    transform: rotate(10deg);
+}
+
+#line2{
+    margin-top: -180px;
+    background-image: url("img/line.png");
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    transform: rotate(-15deg);
+}
+
+#line3{
+    margin-top: 520px;
+    background-image: url("img/line.png");
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    transform: rotate(-10deg);
+}
+
+#warningsign{
+    top: 200px;
+    width: 800px;
+    height: 600px;
+    background-image: url("img/face.png");
+    background-size: cover;
+    position: absolute;
+}
+
+#sticker01{
+    width: 400px;
+    height: 300px;
+    background-image: url("img/sticker1.png");
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    margin-left: 150px;
+    transform: rotate(10deg);
+}
+
+#sticker02{
+    width: 300px;
+    height: 200px;
+    background-image: url("img/sticker2.png");
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    margin-left: -150px;
+    transform: rotate(20deg);
+}
+
+#sticker03{
+    width: 250px;
+    height: 180px;
+    background-image: url("img/sticker3.png");
+    background-size: cover;
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+    transform: rotate(10deg);
+}
+
+#sticker04{
+    width: 300px;
+    height: 200px;
+    background-image: url("img/sticker4.png");
+    background-size: cover;
+    position: absolute;
+    margin-left: 100px;
+    top: 650px;
+    transform: rotate(30deg);
+}
+
+#sticker05{
+    width: 250px;
+    height: 150px;
+    background-image: url("img/sticker5.png");
+    background-size: cover;
+    position: absolute;
+    top: 400px;
+    margin-left: 10px;
+    transform: rotate(-10deg);
+}
+
+#sticker06{
+    width: 300px;
+    height: 200px;
+    background-image: url("img/sticker6.png");
+    background-size: cover;
+    position: absolute;
+    transform: rotate(-20deg);
+    top: 520px;
+    margin-left: -200px;
+}
+
+#secondcontents{
+    margin-top: -600px;
+    width: 1080px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blue{
+    width: 1000px;
+    height: 900px;
+    background-image: url("img/blue2.png");
+    background-size: cover;
+    position: absolute;
+}
+
+#lastcontents{
+    background-color: white;
+    width: 1080px;
+    height: 6790px;
+}
+
+#last01{
+    width: 1080px;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title1{
+    width: 1080px;
+    text-align: center;
+    z-index: 6;
+    position: relative;
+    margin-left: 0px;
+}
+
+
+#tape01{
+    width: 700px;
+    height: 250px;
+    background-image: url("img/yellow.png");
+    background-size: cover;
+    position: absolute;
+}
+
+#cleaner01{
+    width: 500px;
+    height: 250px;
+    background-image: url("img/clean1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -500px;
+}
+
+#arrow01{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: -470px;
+    margin-left: -80px;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow02{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: 550px;
+    margin-left: 70px;
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow03{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: -600px;
+    margin-left: -330px;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow04{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: 570px;
+    margin-left: 400px;
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow05{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: -550px;
+    margin-left: -170px;
+    transform: rotate(50deg);
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow06{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: 550px;
+    margin-left: 430px;
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow07{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: -550px;
+    margin-left: -150px;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow08{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: 580px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow09{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: -500px;
+    margin-left: -300px;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow10{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: 450px;
+    margin-left: 380px;
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow11{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: -860px;
+    margin-left: -230px;
+    position: absolute;
+    z-index: 5;
+}
+
+#arrow12{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/arrowleft.png);
+    background-size: cover;
+    margin-top: 420px;
+    margin-left: 480px;
+    position: absolute;
+    z-index: 5;
+}
+
+#cleaner02{
+    width: 500px;
+    height: 300px;
+    background-image: url("img/clean2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 600px;
+}
+
+#last02{
+    width: 1080px;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tape02{
+    width: 700px;
+    height: 250px;
+    background-image: url("img/yellow.png");
+    background-size: cover;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+#starbucks01{
+    width: 600px;
+    height: 400px;
+    background-image: url("img/starbucks1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 500px;
+    transform: rotate(-20deg);
+}
+#starbucks02{
+    width: 600px;
+    height: 500px;
+    background-image: url("img/starbucks2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: -500px;
+    transform: rotate(10deg);
+}
+
+#last03{
+    width: 1080px;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tape03{
+    width: 700px;
+    height: 250px;
+    background-image: url("img/yellow.png");
+    background-size: cover;
+    position: absolute;
+    transform: rotate(10deg);
+}
+
+#innisfree01{
+    width: 300px;
+    height: 400px;
+    background-image: url("img/innisfree1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 600px;
+    transform: rotate(-10deg);
+}
+#innisfree02{
+    width: 300px;
+    height: 100px;
+    background-image: url("img/innisfree2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: -600px;
+    transform: rotate(10deg);
+}
+
+#last04{
+    width: 1080px;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tape04{
+    width: 700px;
+    height: 250px;
+    background-image: url("img/yellow.png");
+    background-size: cover;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+#mark01{
+    width: 300px;
+    height: 320px;
+    background-image: url("img/mark1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -500px;
+    transform: rotate(10deg);
+}
+#mark02{
+    width: 400px;
+    height: 400px;
+    background-image: url("img/mark2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 600px;
+    transform: rotate(-30deg);
+}
+
+#last05{
+    width: 1080px;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tape05{
+    width: 700px;
+    height: 250px;
+    background-image: url("img/yellow.png");
+    background-size: cover;
+    position: absolute;
+}
+
+#kishi01{
+    width: 400px;
+    height: 500px;
+    background-image: url("img/kishi1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -700px;
+    transform: rotate(-0deg);
+}
+#kishi02{
+    width: 250px;
+    height: 280px;
+    background-image: url("img/kishi2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 600px;
+    transform: rotate(20deg);
+}
+
+#last06{
+    width: 1080px;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tape06{
+    width: 700px;
+    height: 250px;
+    background-image: url("img/yellow.png");
+    background-size: cover;
+    position: absolute;
+    transform: rotate(190deg);
+}
+
+#mark03{
+    width: 300px;
+    height: 250px;
+    background-image: url("img/mark3.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 600px;
+    transform: rotate(10deg);
+}
+
+#mark04{
+    width: 300px;
+    height: 300px;
+    background-image: url("img/mark4.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 700px;
+    transform: rotate(10deg);
+}
+
+#mark05{
+    width: 400px;
+    height: 200px;
+    background-image: url("img/mark5.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: -600px;
+    transform: rotate(-20deg);
+}
+#mark06{
+    width: 300px;
+    height: 300px;
+    background-image: url("img/mark6.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -700px;
+    transform: rotate(10deg);
+}
+
+#last07{
+    width: 1080px;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#moving{
+    width: 800px;
+    height: 260px;
+    background-image: url("img/moving.gif");
+    background-size: cover;
+    position: absolute;
+    margin-top: 0px;
+    z-index: 0;
+}
+
+#trash1{
+    width: 200px;
+    height: 260px;
+    background-image: url("img/trash1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 700px;
+    transform: rotate(10deg);
+    z-index: 6;
+}
+
+#trash2{
+    width: 200px;
+    height: 200px;
+    background-image: url("img/trash2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 700px;
+    transform: rotate(-80deg);
+}
+
+#trash3{
+    width: 200px;
+    height: 210px;
+    background-image: url("img/trash3.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: -700px;
+    transform: rotate(-90deg);
+}
+
+#trash4{
+    width: 150px;
+    height: 210px;
+    background-image: url("img/trash1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -700px;
+    transform: rotate(-50deg);
+}
+
+#trash5{
+    width: 300px;
+    height: 310px;
+    background-image: url("img/starbucks2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 350px;
+    transform: rotate(-50deg);
+}
+
+#trash6{
+    width: 300px;
+    height: 400px;
+    background-image: url("img/innisfree1.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: -700px;
+    transform: rotate(30deg);
+}
+
+#tape1{
+    width: 300px;
+    height: 300px;
+    background-image: url("img/tape.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 280px;
+    transform: rotate(10deg);
+}
+
+#tape2{
+    width: 300px;
+    height: 300px;
+    background-image: url("img/tape2.png");
+    background-size: cover;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: -800px;
+    transform: rotate(10deg);
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: #0a9807;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.scrollAni{
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.scroll-up{
+    transform: translate(0, 10rem);
+}
+
+.scrollAni.show{
+    opacity: 1;
+    transform: none;
+}
+
+.fix{
+    position: sticky;
+    
+}
